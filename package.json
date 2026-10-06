@@ -1,0 +1,37 @@
+{
+    "name": "mailtric",
+    "version": "0.1.0",
+    "description": "The official command-line interface for Mailtric.",
+    "type": "module",
+    "main": "bin/mailtric.js",
+    "bin": {
+        "mailtric": "bin/mailtric.js"
+    },
+    "files": [
+        "bin",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "start": "node bin/mailtric.js",
+        "test": "node --test test/**/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mailtric/CLI.git"
+    },
+    "keywords": [
+        "mailtric",
+        "cli",
+        "mailtric-cli"
+    ],
+    "author": "Mailtric <dev@mailtric.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Mailtric/CLI/issues"
+    },
+    "homepage": "https://github.com/Mailtric/",
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
